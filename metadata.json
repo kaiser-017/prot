@@ -1,0 +1,6 @@
+{
+  "name": "Divu — Creative Developer & UI/UX Designer Portfolio",
+  "description": "Minimal, editorial portfolio for a website builder, landing page creator, and UI/UX designer. Featuring live project previews, interactive scope estimator, and client conversion workflow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

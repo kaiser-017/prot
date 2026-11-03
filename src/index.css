@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary: #171717;
+    --secondary: #525252;
+    --tertiary: #e5e7eb;
+    --neutral: #fafafa;
+    --surface: #ffffff;
+    --accent: #c65d3a;
+    --accent-soft: #faede8;
+    --border: #e5e7eb;
+    font-family: 'Geist', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #fafafa;
+    color: #171717;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.font-geist {
+  font-family: 'Geist', system-ui, sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'Geist Mono', monospace;
+}
+
+/* Custom Scrollbar for sleek aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fafafa;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d4d8;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a1a1aa;
+}
